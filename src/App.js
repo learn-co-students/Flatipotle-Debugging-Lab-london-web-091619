@@ -18,7 +18,6 @@ class App extends Component {
     const orders = this.state.orders.map( (order, idx) => {
       return <Order key={idx} {...order} />
     })
-    console.log(orders)
 
     return (
       <div className="App">
